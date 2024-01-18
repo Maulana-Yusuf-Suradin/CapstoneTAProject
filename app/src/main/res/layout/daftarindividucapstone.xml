@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Minimumblue">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-29dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="@color/White"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"/>
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Hello! 👋"
+            android:textColor="@color/DarkGrey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/namauser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Maulana Yusuf Suradin"
+            android:textColor="@color/lightblue"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/profilephoto"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="314dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/imageview" />
+
+        <TextView
+            android:id="@+id/menuaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Daftar Capstone"
+            android:textColor="@color/lightblue"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330sp"
+            android:layout_height="46dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="38dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="30dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Aliceblue"
+                app:cardBackgroundColor="@color/Aliceblue">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Individu"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:textColor="@color/RoyalBlue"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="50dp">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelompok"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/DarkGrey"
+                android:layout_marginTop="12sp"
+                android:layout_marginLeft="210dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/detailcapstone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="220dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Detail Capstone"
+            android:textColor="@color/lightblue"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330sp"
+            android:layout_height="512dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="252dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Topik Capstone"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Pilih Topik"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="24dp"
+                    android:background="null"
+                    android:contentDescription="Enter How Much Cookies You Want"
+                    android:hint="e.g 8"
+                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Judul Capstone"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Tulis disini"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Siklus Capstone"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Pilih Siklus"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="24dp"
+                    android:background="null"
+                    android:contentDescription="Enter How Much Cookies You Want"
+                    android:hint="e.g 8"
+                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Siklus Capstone"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Pilih Siklus"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="24dp"
+                    android:background="null"
+                    android:contentDescription="Enter How Much Cookies You Want"
+                    android:hint="e.g 8"
+                    app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Pilih Dosbing 1"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Pilih Dosbing 1"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="24dp"
+                    android:background="null"
+                    android:contentDescription="Enter How Much Cookies You Want"
+                    android:hint="e.g 8"
+                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Pilih Dosbing 2"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Pilih Dosbing 2"
+                    android:padding="12dp"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="24dp"
+                    android:background="null"
+                    android:contentDescription="Enter How Much Cookies You Want"
+                    android:hint="e.g 8"
+                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="188dp"
+                android:layout_marginTop="456dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="Simpan"
+                android:textSize="12sp"
+                app:cornerRadius="6dp" />
+
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/buttom_menu"
+        android:background="@color/White"
+        app:itemIconTint="@color/DarkGrey"
+        app:itemTextColor="@color/BlackPearl"
+        app:itemIconSize="28dp">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Minimumblue">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-29dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="@color/White"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"/>
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Hello! 👋"
+                android:textColor="@color/DarkGrey"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/namauser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Maulana Yusuf Suradin"
+                android:textColor="@color/lightblue"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/profilephoto"
+                android:layout_width="64dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="314dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/imageview" />
+
+        <TextView
+            android:id="@+id/menuaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Action"
+            android:textColor="@color/lightblue"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/cardpengumuman"
+            android:layout_width="157dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="144dp"
+            app:srcCompat="@drawable/card" />
+
+        <ImageView
+            android:id="@+id/iconpengumuman"
+            android:layout_width="34dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="158dp"
+            app:srcCompat="@drawable/pengumicon" />
+
+        <TextView
+            android:id="@+id/judulpengumuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="216dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Pengumuman"
+            android:textColor="@color/White"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/cardsidang"
+            android:layout_width="157dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="144dp"
+            app:srcCompat="@drawable/card" />
+
+        <ImageView
+            android:id="@+id/iconsidang"
+            android:layout_width="34dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="158dp"
+            app:srcCompat="@drawable/sdgpropoicon" />
+
+        <TextView
+            android:id="@+id/judulsidang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="216dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Sidang Proposal"
+            android:textColor="@color/White"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/cardexpo"
+            android:layout_width="157dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="352dp"
+            android:layout_marginTop="144dp"
+            app:srcCompat="@drawable/card" />
+
+        <ImageView
+            android:id="@+id/iconexpo"
+            android:layout_width="34dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="158dp"
+            app:srcCompat="@drawable/expoicon" />
+
+        <TextView
+            android:id="@+id/judulexpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="216dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Expo"
+            android:textColor="@color/White"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textpengumumanterbaru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="280dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Pengumuman Terbaru"
+            android:textColor="@color/lightblue"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carddetailpengumuman"
+            android:layout_width="336dp"
+            android:layout_height="464dp"
+            android:background="@color/Minimumblue"
+            app:cardBackgroundColor="@color/White"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="38dp"
+            app:cardElevation="6dp"
+            app:contentPadding="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/item_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/picture" />
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/item_image"
+                    android:layout_toRightOf="@+id/item_image"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Pengumpulan File Capstone S2T23"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/item_detal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_title"
+                    android:layout_toEndOf="@+id/item_image"
+                    android:layout_toRightOf="@+id/item_image"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Mengingatkan kembali kepada peserta Capstone S2T23 untuk segera mengumpulkan berkas sesuai..."
+                    android:textColor="@color/SlateGrey"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/item_postdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="102dp"
+                    android:layout_toEndOf="@+id/item_image"
+                    android:layout_toRightOf="@+id/item_image"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="4 Minutes ago"
+                    android:textColor="@color/SlateGrey"
+                    android:textSize="10sp" />
+
+                <View
+                    android:id="@+id/garis"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.4dp"
+                    android:layout_marginTop="126dp"
+                    android:alpha="0.3"
+                    android:background="@color/DarkGrey" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:layout_marginTop="144dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/item_image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/picture" />
+
+                <TextView
+                    android:id="@+id/item_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/item_image1"
+                    android:layout_toRightOf="@+id/item_image1"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Pengumpulan File Capstone S2T23"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/item_detal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_title1"
+                    android:layout_toEndOf="@+id/item_image1"
+                    android:layout_toRightOf="@+id/item_image1"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Mengingatkan kembali kepada peserta Capstone S2T23 untuk segera mengumpulkan berkas sesuai..."
+                    android:textColor="@color/SlateGrey"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/item_postdate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="102dp"
+                    android:layout_toEndOf="@+id/item_image1"
+                    android:layout_toRightOf="@+id/item_image1"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="4 Minutes ago"
+                    android:textColor="@color/SlateGrey"
+                    android:textSize="10sp" />
+
+                <View
+                    android:id="@+id/garis1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.4dp"
+                    android:layout_marginTop="126dp"
+                    android:alpha="0.3"
+                    android:background="@color/DarkGrey" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:layout_marginTop="290dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/item_image2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/picture" />
+
+                <TextView
+                    android:id="@+id/item_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/item_image2"
+                    android:layout_toRightOf="@+id/item_image2"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Pengumpulan File Capstone S2T23"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/item_detal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_title2"
+                    android:layout_toEndOf="@+id/item_image2"
+                    android:layout_toRightOf="@+id/item_image2"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Mengingatkan kembali kepada peserta Capstone S2T23 untuk segera mengumpulkan berkas sesuai..."
+                    android:textColor="@color/SlateGrey"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/item_postdate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="102dp"
+                    android:layout_toEndOf="@+id/item_image2"
+                    android:layout_toRightOf="@+id/item_image2"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="4 Minutes ago"
+                    android:textColor="@color/SlateGrey"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/RoyalBlue"
+        android:text="Lihat Selengkapnya"
+        android:textSize="12sp"
+        app:cornerRadius="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frame_container"
+        app:layout_constraintVertical_bias="0.98"></Button>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/buttom_menu"
+        android:background="@color/White"
+        app:itemIconTint="@color/DarkGrey"
+        app:itemTextColor="@color/BlackPearl"
+        app:itemIconSize="28dp">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

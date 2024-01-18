@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Minimumblue">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-29dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/DarkGrey"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="14dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_margin="6dp"
+                app:srcCompat="@drawable/baseline_arrow_back_24"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Kelompok Capstone TA"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330sp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="120dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Kelompok Capstone TA"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp"
+                    android:layout_centerHorizontal="true"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="24dp">
+                    <TextView
+                        android:id="@+id/item_title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Nomor Kelompok :   22"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="44dp">
+                    <TextView
+                        android:id="@+id/item_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Topik                        :  Smart System"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="64dp">
+                    <TextView
+                        android:id="@+id/item_title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Judul                        : "
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/item_title10"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="118dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:justificationMode="inter_word"
+                        android:text="Pengembangan Sistem Informasi Pengelolaan Capstone dan Tugas Akhir di Departemen Teknik Komputer Universitas Diponegoro"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330sp"
+            android:layout_height="236dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="316dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Anggota Kelompok"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="24dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/yusup"/>
+
+                    <TextView
+                        android:id="@+id/item_title11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Maulana Yusuf Suradin"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/item_title12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="21120120140051"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="86dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/anam"/>
+
+                    <TextView
+                        android:id="@+id/item_title13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Muhammad Rofi’ul Anam"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/item_title14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="21120120140135"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="146dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/nanda"/>
+
+                    <TextView
+                        android:id="@+id/item_title18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Nanda Iqbal Hanafi"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/item_title19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="21120120130109"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330sp"
+            android:layout_height="176dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="570dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Dosen Pembimbing"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="24dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/dosbing"/>
+
+                    <TextView
+                        android:id="@+id/item_title6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Adnan Fauzi, S.T., M.Kom."
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/item_title7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="198101272018071001"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="86dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/dosbing2"/>
+
+                    <TextView
+                        android:id="@+id/item_title8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Patricia Evericho M. S.T., M.Cs."
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/item_title9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64dp"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="H.7.199203222022042001"
+                        android:textColor="@color/BlackPearl"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/buttom_menu"
+        android:background="@color/White"
+        app:itemIconTint="@color/DarkGrey"
+        app:itemTextColor="@color/BlackPearl"
+        app:itemIconSize="28dp">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

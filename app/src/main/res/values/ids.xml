@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottom_profile" type="id" />
+    <item name="bottom_group" type="id" />
+    <item name="bottom_file" type="id" />
+    <item name="startActBtn" type="id" />
+</resources>

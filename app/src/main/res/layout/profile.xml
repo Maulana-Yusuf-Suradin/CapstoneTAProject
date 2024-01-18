@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Minimumblue">
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-37dp">
+
+        <TextView
+            android:id="@+id/namauser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Maulana Yusuf Suradin"
+            android:textColor="@color/BlackPearl"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/namauser2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="21120120140051"
+            android:textColor="@color/BlackPearl"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/profilephoto"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="44dp"
+            app:srcCompat="@drawable/imageview" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="34dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="134dp"
+            app:srcCompat="@drawable/edit" />
+
+
+        <TextView
+            android:id="@+id/detailcapstone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Data Profil Akun"
+            android:textColor="@color/lightblue"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330sp"
+            android:layout_height="510dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="292dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Nama Lengkap"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="Maulana Yusuf Suradin"
+                    android:padding="12dp"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="NIM"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="21120120140051"
+                    android:padding="12dp"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:id="@+id/item_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Email"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="maulanayusufsuradin@students.undip..."
+                    android:padding="12dp"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:id="@+id/item_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="ID Pengguna"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="maulana4456"
+                    android:padding="12dp"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:background="@color/White"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:id="@+id/item_title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Nomor Telepon"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/username6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:hint="08123456789"
+                    android:padding="12dp"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="212dp"
+                android:layout_marginTop="456dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="Simpan"
+                android:textSize="12sp"
+                app:cornerRadius="6dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/buttom_menu"
+        android:background="@color/White"
+        app:itemIconTint="@color/DarkGrey"
+        app:itemTextColor="@color/BlackPearl"
+        app:itemIconSize="28dp">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
