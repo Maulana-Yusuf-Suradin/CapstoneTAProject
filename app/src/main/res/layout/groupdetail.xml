@@ -53,9 +53,9 @@
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="330sp"
+            android:layout_width="370sp"
             android:layout_height="180dp"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="120dp"
             app:cardCornerRadius="8dp">
 
@@ -124,24 +124,27 @@
 
                     <TextView
                         android:id="@+id/item_title10"
-                        android:layout_width="180dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="219dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="118dp"
                         android:layout_marginLeft="118dp"
+                        android:layout_marginEnd="1dp"
                         android:fontFamily="@font/poppinsmedium"
                         android:justificationMode="inter_word"
                         android:text="Pengembangan Sistem Informasi Pengelolaan Capstone dan Tugas Akhir di Departemen Teknik Komputer Universitas Diponegoro"
                         android:textColor="@color/BlackPearl"
-                        android:textSize="12sp"
-                        />
+                        android:textSize="12sp" />
                 </RelativeLayout>
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="330sp"
+            android:layout_width="370sp"
             android:layout_height="236dp"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="316dp"
             app:cardCornerRadius="8dp">
 
@@ -266,9 +269,9 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="330sp"
+            android:layout_width="370sp"
             android:layout_height="176dp"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="570dp"
             app:cardCornerRadius="8dp">
 

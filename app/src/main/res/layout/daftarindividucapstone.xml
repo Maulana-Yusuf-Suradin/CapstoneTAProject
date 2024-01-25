@@ -26,7 +26,7 @@
             android:id="@+id/hello"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="36dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Hello! 👋"
@@ -37,7 +37,7 @@
             android:id="@+id/namauser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="60dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Maulana Yusuf Suradin"
@@ -46,9 +46,9 @@
 
         <ImageView
             android:id="@+id/profilephoto"
-            android:layout_width="64dp"
+            android:layout_width="wrap_content"
             android:layout_height="59dp"
-            android:layout_marginLeft="314dp"
+            android:layout_marginLeft="318dp"
             android:layout_marginTop="24dp"
             app:srcCompat="@drawable/imageview" />
 
@@ -56,7 +56,7 @@
             android:id="@+id/menuaction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="120dp"
             android:fontFamily="@font/poppinssemibold"
             android:text="Daftar Capstone"
@@ -64,11 +64,11 @@
             android:textSize="16sp" />
 
         <androidx.cardview.widget.CardView
-            android:layout_width="330sp"
+            android:layout_width="370sp"
             android:layout_height="46dp"
             app:cardCornerRadius="8dp"
             android:layout_marginTop="150dp"
-            android:layout_marginLeft="38dp">
+            android:layout_marginLeft="21dp">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="155dp"
@@ -96,7 +96,7 @@
                 android:fontFamily="@font/poppinsmedium"
                 android:textColor="@color/DarkGrey"
                 android:layout_marginTop="12sp"
-                android:layout_marginLeft="210dp">
+                android:layout_marginLeft="234dp">
             </TextView>
         </androidx.cardview.widget.CardView>
 
@@ -104,7 +104,7 @@
             android:id="@+id/detailcapstone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="220dp"
             android:fontFamily="@font/poppinssemibold"
             android:text="Detail Capstone"
@@ -112,9 +112,9 @@
             android:textSize="16sp" />
 
         <androidx.cardview.widget.CardView
-            android:layout_width="330sp"
+            android:layout_width="370sp"
             android:layout_height="512dp"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="252dp"
             app:cardCornerRadius="8dp">
 
@@ -149,7 +149,7 @@
                     android:id="@+id/imageButton"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="240dp"
+                    android:layout_marginLeft="284dp"
                     android:layout_marginTop="24dp"
                     android:background="null"
                     android:contentDescription="Enter How Much Cookies You Want"
@@ -258,7 +258,7 @@
                     android:id="@+id/imageButton4"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="240dp"
+                    android:layout_marginLeft="284dp"
                     android:layout_marginTop="24dp"
                     android:background="null"
                     android:contentDescription="Enter How Much Cookies You Want"
@@ -298,7 +298,7 @@
                     android:id="@+id/imageButton5"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="240dp"
+                    android:layout_marginLeft="284dp"
                     android:layout_marginTop="24dp"
                     android:background="null"
                     android:contentDescription="Enter How Much Cookies You Want"
@@ -338,7 +338,7 @@
                     android:id="@+id/imageButton6"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="240dp"
+                    android:layout_marginLeft="284dp"
                     android:layout_marginTop="24dp"
                     android:background="null"
                     android:contentDescription="Enter How Much Cookies You Want"
@@ -349,7 +349,7 @@
             <Button
                 android:layout_width="126dp"
                 android:layout_height="48dp"
-                android:layout_marginLeft="188dp"
+                android:layout_marginLeft="226dp"
                 android:layout_marginTop="456dp"
                 android:layout_marginBottom="8dp"
                 android:backgroundTint="@color/RoyalBlue"

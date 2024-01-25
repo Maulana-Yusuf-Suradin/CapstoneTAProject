@@ -40,7 +40,7 @@
             android:layout_height="112dp"
             app:cardCornerRadius="8dp"
             android:layout_marginTop="80dp"
-            android:layout_marginLeft="20dp">
+            android:layout_marginLeft="21dp">
 
             <TextView
                 android:id="@+id/judul"

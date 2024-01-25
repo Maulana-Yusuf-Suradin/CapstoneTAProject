@@ -26,7 +26,7 @@
                 android:id="@+id/hello"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="34dp"
+                android:layout_marginLeft="21dp"
                 android:layout_marginTop="36dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:text="Hello! 👋"
@@ -37,118 +37,130 @@
                 android:id="@+id/namauser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="34dp"
+                android:layout_marginLeft="21dp"
                 android:layout_marginTop="60dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:text="Maulana Yusuf Suradin"
                 android:textColor="@color/lightblue"
                 android:textSize="14sp"/>
 
-            <ImageView
-                android:id="@+id/profilephoto"
-                android:layout_width="64dp"
-                android:layout_height="59dp"
-                android:layout_marginLeft="314dp"
-                android:layout_marginTop="24dp"
-                app:srcCompat="@drawable/imageview" />
+        <ImageView
+            android:id="@+id/profilephoto"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginLeft="318dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/imageview" />
 
         <TextView
             android:id="@+id/menuaction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="120dp"
             android:fontFamily="@font/poppinssemibold"
             android:text="Action"
             android:textColor="@color/lightblue"
             android:textSize="16sp" />
 
-        <ImageView
+        <androidx.cardview.widget.CardView
             android:id="@+id/cardpengumuman"
-            android:layout_width="157dp"
-            android:layout_height="114dp"
-            android:layout_marginLeft="26dp"
-            android:layout_marginTop="144dp"
-            app:srcCompat="@drawable/card" />
+            android:layout_width="148dp"
+            android:layout_height="92dp"
+            app:cardBackgroundColor="#6A8DFD"
+            app:cardCornerRadius="6dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginLeft="21dp"
+            app:cardElevation="6dp"
+            app:contentPadding="4dp">
 
-        <ImageView
-            android:id="@+id/iconpengumuman"
-            android:layout_width="34dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="44dp"
-            android:layout_marginTop="158dp"
-            app:srcCompat="@drawable/pengumicon" />
+            <ImageView
+                android:id="@+id/iconpengumuman"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/pengumicon" />
 
-        <TextView
-            android:id="@+id/judulpengumuman"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="44dp"
-            android:layout_marginTop="216dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Pengumuman"
-            android:textColor="@color/White"
-            android:textSize="12sp" />
+            <TextView
+                android:id="@+id/judulpengumuman"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="6dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Pengumuman"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
 
-        <ImageView
-            android:id="@+id/cardsidang"
-            android:layout_width="157dp"
-            android:layout_height="114dp"
-            android:layout_marginLeft="188dp"
-            android:layout_marginTop="144dp"
-            app:srcCompat="@drawable/card" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardsidangproposal"
+            android:layout_width="148dp"
+            android:layout_height="92dp"
+            app:cardBackgroundColor="#6A8DFD"
+            app:cardCornerRadius="6dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginLeft="186dp"
+            app:cardElevation="6dp"
+            app:contentPadding="4dp">
 
-        <ImageView
-            android:id="@+id/iconsidang"
-            android:layout_width="34dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="206dp"
-            android:layout_marginTop="158dp"
-            app:srcCompat="@drawable/sdgpropoicon" />
+            <ImageView
+                android:id="@+id/iconsidang"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/sdgpropoicon" />
 
-        <TextView
-            android:id="@+id/judulsidang"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="206dp"
-            android:layout_marginTop="216dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Sidang Proposal"
-            android:textColor="@color/White"
-            android:textSize="12sp" />
+            <TextView
+                android:id="@+id/textsidangproposal"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="6dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Sidang Proposal"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
 
-        <ImageView
+        <androidx.cardview.widget.CardView
             android:id="@+id/cardexpo"
-            android:layout_width="157dp"
-            android:layout_height="114dp"
-            android:layout_marginLeft="352dp"
-            android:layout_marginTop="144dp"
-            app:srcCompat="@drawable/card" />
+            android:layout_width="148dp"
+            android:layout_height="92dp"
+            app:cardBackgroundColor="#6A8DFD"
+            app:cardCornerRadius="6dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginLeft="350dp"
+            app:cardElevation="6dp"
+            app:contentPadding="4dp">
 
-        <ImageView
-            android:id="@+id/iconexpo"
-            android:layout_width="34dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="370dp"
-            android:layout_marginTop="158dp"
-            app:srcCompat="@drawable/expoicon" />
+            <ImageView
+                android:id="@+id/iconexpo"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/expoicon" />
 
-        <TextView
-            android:id="@+id/judulexpo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="370dp"
-            android:layout_marginTop="216dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Expo"
-            android:textColor="@color/White"
-            android:textSize="12sp" />
+            <TextView
+                android:id="@+id/textexpo"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="6dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Expo"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/textpengumumanterbaru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
+            android:layout_marginLeft="21dp"
             android:layout_marginTop="280dp"
             android:fontFamily="@font/poppinssemibold"
             android:text="Pengumuman Terbaru"
@@ -157,13 +169,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/carddetailpengumuman"
-            android:layout_width="336dp"
+            android:layout_width="370dp"
             android:layout_height="464dp"
             android:background="@color/Minimumblue"
             app:cardBackgroundColor="@color/White"
             app:cardCornerRadius="10dp"
             android:layout_marginTop="310dp"
-            android:layout_marginLeft="38dp"
+            android:layout_marginLeft="21dp"
             app:cardElevation="6dp"
             app:contentPadding="4dp">
 

@@ -22,35 +22,35 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"/>
 
-        <TextView
-            android:id="@+id/hello"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
-            android:layout_marginTop="36dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Hello! 👋"
-            android:textColor="@color/DarkGrey"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Hello! 👋"
+                android:textColor="@color/DarkGrey"
+                android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/namauser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="34dp"
-            android:layout_marginTop="60dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Maulana Yusuf Suradin"
-            android:textColor="@color/lightblue"
-            android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/namauser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Maulana Yusuf Suradin"
+                android:textColor="@color/lightblue"
+                android:textSize="14sp"/>
 
-        <ImageView
-            android:id="@+id/profilephoto"
-            android:layout_width="64dp"
-            android:layout_height="59dp"
-            android:layout_marginLeft="314dp"
-            android:layout_marginTop="24dp"
-            app:srcCompat="@drawable/imageview" />
+            <ImageView
+                android:id="@+id/profilephoto"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_marginLeft="318dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/imageview" />
 
         <TextView
             android:id="@+id/menuaction"

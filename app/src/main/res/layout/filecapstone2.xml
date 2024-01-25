@@ -22,35 +22,35 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"/>
 
-        <TextView
-            android:id="@+id/hello"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="21dp"
-            android:layout_marginTop="36dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Hello! 👋"
-            android:textColor="@color/DarkGrey"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Hello! 👋"
+                android:textColor="@color/DarkGrey"
+                android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/namauser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="21dp"
-            android:layout_marginTop="60dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Maulana Yusuf Suradin"
-            android:textColor="@color/lightblue"
-            android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/namauser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Maulana Yusuf Suradin"
+                android:textColor="@color/lightblue"
+                android:textSize="14sp"/>
 
-        <ImageView
-            android:id="@+id/profilephoto"
-            android:layout_width="wrap_content"
-            android:layout_height="59dp"
-            android:layout_marginLeft="318dp"
-            android:layout_marginTop="24dp"
-            app:srcCompat="@drawable/imageview" />
+            <ImageView
+                android:id="@+id/profilephoto"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_marginLeft="312dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/imageview" />
 
         <TextView
             android:id="@+id/menuaction"
@@ -59,7 +59,7 @@
             android:layout_marginLeft="21dp"
             android:layout_marginTop="120dp"
             android:fontFamily="@font/poppinssemibold"
-            android:text="Daftar Capstone"
+            android:text="Detail Upload File"
             android:textColor="@color/BlackPearl"
             android:textSize="16sp" />
 
@@ -75,49 +75,36 @@
                 android:layout_height="30dp"
                 app:cardCornerRadius="8dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="206dp"
+                android:layout_marginLeft="10dp"
                 android:background="@color/Aliceblue"
                 app:cardBackgroundColor="@color/Aliceblue">
-
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Kelompok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capstone"
                     android:fontFamily="@font/poppinssemibold"
                     android:textColor="@color/RoyalBlue"
-                    android:layout_marginTop="4sp"
-                    android:layout_marginLeft="40dp">
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="44dp">
                 </TextView>
             </androidx.cardview.widget.CardView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Individu"
+                android:text="Tugas Akhir"
                 android:fontFamily="@font/poppinsmedium"
                 android:textColor="@color/DarkGrey"
                 android:layout_marginTop="12sp"
-                android:layout_marginLeft="46dp">
+                android:layout_marginLeft="234dp">
             </TextView>
-
         </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/detailcapstone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="21dp"
-            android:layout_marginTop="220dp"
-            android:fontFamily="@font/poppinssemibold"
-            android:text="Detail Capstone"
-            android:textColor="@color/BlackPearl"
-            android:textSize="16sp" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="370sp"
-            android:layout_height="512dp"
+            android:layout_height="148dp"
             android:layout_marginLeft="21dp"
-            android:layout_marginTop="252dp"
+            android:layout_marginTop="228dp"
             app:cardCornerRadius="8dp">
 
             <RelativeLayout
@@ -126,240 +113,33 @@
                 android:background="@color/White"
                 android:padding="16dp">
 
-
                 <TextView
                     android:id="@+id/item_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Topik Capstone"
+                    android:text="Upload Dokumen C100"
                     android:textColor="@color/RoyalBlue"
                     android:textSize="12sp" />
 
-                <EditText
+                <TextView
                     android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="22dp"
                     android:background="@drawable/custom_edittext"
                     android:fontFamily="@font/poppinseegular"
-                    android:hint="Pilih Topik"
+                    android:text="Choose File"
                     android:padding="16dp"
                     android:textSize="12sp" />
-
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="284dp"
-                    android:layout_marginTop="24dp"
-                    android:background="null"
-                    android:contentDescription="Enter How Much Cookies You Want"
-                    android:hint="e.g 8"
-                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="90dp"
-                android:background="@color/White"
-                android:padding="16dp">
-
-
-                <TextView
-                    android:id="@+id/item_title2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:text="Judul Capstone"
-                    android:textColor="@color/RoyalBlue"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/username2"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="22dp"
-                    android:background="@drawable/custom_edittext"
-                    android:fontFamily="@font/poppinseegular"
-                    android:hint="Tulis disini"
-                    android:padding="16dp"
-                    android:textSize="12sp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="180dp"
-                android:background="@color/White"
-                android:padding="16dp">
-
-
-                <TextView
-                    android:id="@+id/item_title3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:text="Siklus Capstone"
-                    android:textColor="@color/RoyalBlue"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/pilihsiklus"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="22dp"
-                    android:background="@drawable/custom_edittext"
-                    android:fontFamily="@font/poppinseegular"
-                    android:hint="Pilih Siklus"
-                    android:padding="16dp"
-                    android:textSize="12sp" />
-
-                <ImageButton
-                    android:id="@+id/imageButton3"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="240dp"
-                    android:layout_marginTop="24dp"
-                    android:background="null"
-                    android:contentDescription="Enter How Much Cookies You Want"
-                    android:hint="e.g 8"
-                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="180dp"
-                android:background="@color/White"
-                android:padding="16dp">
-
-
-                <TextView
-                    android:id="@+id/item_title4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:text="Siklus Capstone"
-                    android:textColor="@color/RoyalBlue"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/username4"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="22dp"
-                    android:background="@drawable/custom_edittext"
-                    android:fontFamily="@font/poppinseegular"
-                    android:hint="Pilih Siklus"
-                    android:padding="16dp"
-                    android:textSize="12sp" />
-
-                <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="284dp"
-                    android:layout_marginTop="24dp"
-                    android:background="null"
-                    android:contentDescription="Enter How Much Cookies You Want"
-                    android:hint="e.g 8"
-                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="270dp"
-                android:background="@color/White"
-                android:padding="16dp">
-
-
-                <TextView
-                    android:id="@+id/item_title5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:text="Pilih Dosbing 1"
-                    android:textColor="@color/RoyalBlue"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/username5"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="22dp"
-                    android:background="@drawable/custom_edittext"
-                    android:fontFamily="@font/poppinseegular"
-                    android:hint="Pilih Dosbing 1"
-                    android:padding="16dp"
-                    android:textSize="12sp" />
-
-                <ImageButton
-                    android:id="@+id/imageButton5"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="284dp"
-                    android:layout_marginTop="24dp"
-                    android:background="null"
-                    android:contentDescription="Enter How Much Cookies You Want"
-                    android:hint="e.g 8"
-                    app:srcCompat="@drawable/baseline_arrow_drop_down_24"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="360dp"
-                android:background="@color/White"
-                android:padding="16dp">
-
-
-                <TextView
-                    android:id="@+id/item_title6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:text="Pilih Dosbing 2"
-                    android:textColor="@color/RoyalBlue"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/username6"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="22dp"
-                    android:background="@drawable/custom_edittext"
-                    android:fontFamily="@font/poppinseegular"
-                    android:hint="Pilih Dosbing 2"
-                    android:padding="12dp"
-                    android:textSize="12sp" />
-
-                <ImageButton
-                    android:id="@+id/imageButton6"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="284dp"
-                    android:layout_marginTop="24dp"
-                    android:background="null"
-                    android:contentDescription="Enter How Much Cookies You Want"
-                    android:hint="e.g 8"
-                    app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
             </RelativeLayout>
 
             <Button
                 android:layout_width="126dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="226dp"
-                android:layout_marginTop="456dp"
+                android:layout_marginTop="94dp"
                 android:layout_marginBottom="8dp"
                 android:backgroundTint="@color/RoyalBlue"
                 android:text="Simpan"
@@ -367,9 +147,199 @@
                 app:cornerRadius="6dp" />
 
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370sp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="382dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Upload Dokumen C200"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/username2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Choose File"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="226dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="Simpan"
+                android:textSize="12sp"
+                app:cornerRadius="6dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370sp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="538dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Upload Dokumen C300"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/username3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Choose File"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="226dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="Simpan"
+                android:textSize="12sp"
+                app:cornerRadius="6dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370sp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="694dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Upload Dokumen C400"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/username4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Choose File"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="226dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="Simpan"
+                android:textSize="12sp"
+                app:cornerRadius="6dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370sp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="844dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/item_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Upload Dokumen C500"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/username5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/poppinseegular"
+                    android:text="Choose File"
+                    android:padding="16dp"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="226dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="Simpan"
+                android:textSize="12sp"
+                app:cornerRadius="6dp" />
+
+        </androidx.cardview.widget.CardView>
+
     </FrameLayout>
-
-
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
