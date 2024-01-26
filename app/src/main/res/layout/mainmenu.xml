@@ -67,7 +67,7 @@
             android:id="@+id/cardpengumuman"
             android:layout_width="148dp"
             android:layout_height="92dp"
-            app:cardBackgroundColor="#6A8DFD"
+            android:backgroundTint="@drawable/gradientcard"
             app:cardCornerRadius="6dp"
             android:layout_marginTop="153dp"
             android:layout_marginLeft="21dp"
